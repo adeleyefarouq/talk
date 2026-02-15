@@ -34,16 +34,17 @@ const Howto = () => {
 
 
     <div>
-    <div className=' min-h-screeen flex items-center justify-center px-6'>
+    <div className='  md:grid-cols-3    min-h-screeen    grid-row  md:flex  items-center justify-center px-6'>
         <article className=''>
             <div className='
             w-[90%] rounded-3xl
-    bg-[#dfdfd5]
+    bg-[#dcf1df]
         mx-auto
         grid
         grid-cols-3
         overflow-hidden
-        divide-x'>
+        divide-x
+        -mt-10'>
             <Card 
             number="01"
             sub="cause"

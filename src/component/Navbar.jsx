@@ -10,6 +10,7 @@ const Navbar = () => {
           alt="background"
           className="w-full h-full object-cover scale-110"
         />
+         <div className="absolute inset-0 bg-black/60"></div>
       </div>
       <div className="absolute inset-0 bg-black/50 -z-10"></div>
       <div className="fixed right-0 top-1/2 -translate-y-1/2 z-50 flex flex-col gap-3">
@@ -41,9 +42,9 @@ const Navbar = () => {
           </button>
         </div>
       </header>
-      <section  className="relative z-10 h-full flex items-center justify-center text-center px-6">
+      <section  className="relative z-10 h-full flex items-center justify-center text-center px-6 -mt-8">
         <div className="max-w-6xl mx-auto mt-20">
-          <h1 className="font-semibold text-5xl md:text-7xl lg:text-8xl leading-tight text-white">
+          <h1 className="  font-semibold text-4xl md:text-5xl lg:text-8xl leading-tight  md:text-white text-amber-500 ">
             Empowering Change, One Step at a Time
           </h1>
 
