@@ -2,7 +2,9 @@ import React from 'react'
 import Impact from './component/Impact';
 import Navbar from './component/Navbar'
 import Howto from './component/Howto'
-import About from './component/about'
+import About from "./component/About";
+
+
 import Create from './component/create'
 import Another from './component/another'
 import Productpage from './pages/productpage'

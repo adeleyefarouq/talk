@@ -2,12 +2,12 @@ import React from 'react'
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 
-function create() {
+function Create() {
   return (
   //  button/ and one pic and words
   <div className=" bg-[#dcf1df]    border[0.5px] ">
     <div className="  ">
-    <div className="  bg-green-500  justify-between   flex gap-20   rounded-xl ">
+    <div className="  bg-green-500  justify-between   flex gap-20   rounded-xl  p-13">
         <div className='flex  flex-col px-0'>
       <div className=" ">
         <h1 className="text-4xl font-semibold">We create a better tomorrow</h1>
@@ -116,4 +116,4 @@ function create() {
   )
 }
 
-export default create
+export default Create
