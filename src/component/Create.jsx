@@ -5,9 +5,9 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 function create() {
   return (
   //  button/ and one pic and words
-  <div className=" bg-[#dcf1df]    borde[0.5px] ">
+  <div className=" bg-[#dcf1df]    border[0.5px] ">
     <div className="  ">
-    <div className="  bg-green-500  justify-between   flex gap-20   px-6 py-10 rounded-xl -mt-10">
+    <div className="  bg-green-500  justify-between   flex gap-20   rounded-xl ">
         <div className='flex  flex-col px-0'>
       <div className=" ">
         <h1 className="text-4xl font-semibold">We create a better tomorrow</h1>
@@ -20,7 +20,7 @@ function create() {
         <button className=" bg-white text-black py-4 px-10 rounded-xl font-bold text-lg hover:bg-green-700 transition">Donate</button>
       </div>
 </div>
-       <div className= " -mt-9  bg-[#dcf1df] py-4  flex justify-between rounded-2xl ">
+       <div className= "bg-[#dcf1df] py-4  flex justify-between rounded-2xl ">
       <div className=" mt-20  rounded-2xl ">
         <img className="rounded-2xl mw-full"
         src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-05.jpg"
@@ -46,8 +46,8 @@ function create() {
     </div>
        {/* twopic */}
 
-         <div className="w-full-mb-90">
-        <div className="flex flex-col justify-center  items-center text-center gap-3 font-semibold  w-full bg-[#ffffff] py-10 m-0bg-white px-30 ">
+         <div className="w-full mx-auto-mb-90">
+        <div className="flex flex-col justify-center  items-center text-center gap-3 font-semibold  w-4xl bg-[#ffffff] py-10 m-0bg-white px-30 divide ">
            <h1  className="text-4xl ">Inspiring tales of transformation</h1>
            <p>Get inspired by the remarkable stories of transformation through our non-profit organization. Join us in making a positive impact today.</p>
         </div>
@@ -64,11 +64,11 @@ function create() {
         </div>
         <div className="px-5 mt-10">
             <img className="rounded-2xl -mt-30"
-             src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-06.jpg"
+             src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-07.jpg"
              alt=""
              />
-           <h3 className="text-xl  font-medium  mt-6">The Special One</h3>
-           <p   className="mb-6">Join our non-profit organisation to help create a brighter future for those in need. Every donation counts towards making a difference in the lives of those less fortunate.</p>
+           <h3 className="text-xl  font-medium  mt-6">A Better Education for Everyone</h3>
+           <p   className="mb-6">Our non-profit organisation is dedicated to improving access to education for all. With your support, we can help provide the resources and opportunities needed for success.</p>
            <a className="font-semibold flex items-center gap-2  mt-6">Readmore <FaLongArrowAltRight /></a>
         </div>
         </div>

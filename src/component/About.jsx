@@ -4,6 +4,10 @@ const about = () => {
   return (
     <div>
     <section className="bg-[#e9e9e4] py-20 px-8">
+
+
+
+      
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16">
 
         <div className="flex-1">
