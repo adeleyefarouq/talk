@@ -2,7 +2,7 @@ import React from 'react'
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 
-function Create() {
+function Create () {
   return (
   //  button/ and one pic and words
   <div className=" bg-[#dcf1df]    border[0.5px] ">
@@ -117,3 +117,4 @@ function Create() {
 }
 
 export default Create
+

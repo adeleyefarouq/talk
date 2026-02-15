@@ -3,9 +3,7 @@ import Impact from './component/Impact';
 import Navbar from './component/Navbar'
 import Howto from './component/Howto'
 import About from "./component/About";
-
-
-import Create from './component/create'
+import Create from './component/Create'
 import Another from './component/another'
 import Productpage from './pages/productpage'
 import Aboutpage from './pages/aboutpage'
