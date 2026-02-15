@@ -45,7 +45,7 @@ const about = () => {
           <img
             src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-0001.jpg"
             alt=""
-            className="h-[300px] w-[100%] object-scale-down rounded-2xl  "
+            className="h-[200%] w-[100] object-scale-down rounded-2xl  "
           />
 
           <img
