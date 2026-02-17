@@ -1,9 +1,5 @@
 import React from 'react'
 
-import { MdFacebook } from "react-icons/md";
-import { FaTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
 
 
 
@@ -42,16 +38,7 @@ function Another() {
       </div>
        </div>
       
-      <div>
-          <p className=' flex justify-between  text-xl'> &copy; {new Date().getFullYear()} Non-Profit Organization. All rights reserved.</p>
-        </div>
-        <div className='flex  text-2xl  '>
-            <a href=""><MdFacebook /></a> 
-            <a href=""><FaTwitter /></a>
-            <a href=""><FaInstagram /></a>
-            <a href=""><FaYoutube /></a>
 
-        </div>
     </div>
 
   )
