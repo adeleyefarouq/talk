@@ -3,11 +3,13 @@ import Impact from './component/Impact';
 import Navbar from './component/Navbar'
 import Howto from './component/Howto'
 import About from "./component/About";
-// import Create from './component/create'
-import Another from './component/another'
+import Another from "./component/Another";
+
+
 import Productpage from './pages/productpage'
 import Aboutpage from './pages/aboutpage';
-import State from './pages/State';
+import Create from './component/Create';
+
 
 const App = () => {
   return (
@@ -18,7 +20,7 @@ const App = () => {
       {/* <Productpage/>  */}
       <Aboutpage /> 
        <Impact />
-      {/* <Create /> */}
+      <Create/>
       <Another /> 
 
       {/* <State/> */}

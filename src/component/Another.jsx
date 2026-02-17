@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLongArrowAltRight } from "react-icons/fa";
+
 import { MdFacebook } from "react-icons/md";
 import { FaTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
@@ -7,7 +7,7 @@ import { FaYoutube } from "react-icons/fa";
 
 
 
-function another() {
+function Another() {
   return (
     <div>
     <div className="  flex justify-betwwen   gap-40 -mb-60 py-20 border border-black">
@@ -57,4 +57,4 @@ function another() {
   )
 }
 
-export default another
+export default Another
