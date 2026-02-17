@@ -4,10 +4,8 @@ import Navbar from './component/Navbar'
 import Howto from './component/Howto'
 import About from "./component/About";
 import Another from "./component/Another";
-
-
-import Productpage from './pages/productpage'
-import Aboutpage from './pages/aboutpage';
+import Productpage from './pages/Productpage';
+import Aboutpage from './pages/Aboutpage';
 import Create from './component/Create';
 
 
@@ -17,7 +15,7 @@ const App = () => {
        <Navbar />
       <Howto />
       <About />
-      {/* <Productpage/>  */}
+      <Productpage
       <Aboutpage /> 
        <Impact />
       <Create/>
