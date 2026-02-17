@@ -3,21 +3,25 @@ import Impact from './component/Impact';
 import Navbar from './component/Navbar'
 import Howto from './component/Howto'
 import About from "./component/About";
-import Create from './component/create'
+// import Create from './component/create'
 import Another from './component/another'
 import Productpage from './pages/productpage'
-import Aboutpage from './pages/aboutpage'
+import Aboutpage from './pages/aboutpage';
+import State from './pages/State';
+
 const App = () => {
   return (
     <div>
-      <Navbar />
+       <Navbar />
       <Howto />
       <About />
-       {/* <Productpage/> 
-      <Aboutpage /> */}
-      <Impact />
-      <Create />
-      <Another />
+      {/* <Productpage/>  */}
+      <Aboutpage /> 
+       <Impact />
+      {/* <Create /> */}
+      <Another /> 
+
+      {/* <State/> */}
 
     </div>
   )

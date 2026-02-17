@@ -47,13 +47,13 @@ function create () {
        {/* twopic */}
 
          <div className="w-full mx-auto-mb-90">
-        <div className="flex flex-col justify-center  items-center text-center gap-3 font-semibold  w-4xl bg-[#ffffff] py-10 m-0bg-white px-30 divide ">
+        <div className="flex flex-col justify-center  items-center text-center gap-3 font-semibold  w-full bg-[#ffffff] py-10 m-0bg-white px-30 divide ">
            <h1  className="text-4xl ">Inspiring tales of transformation</h1>
            <p>Get inspired by the remarkable stories of transformation through our non-profit organization. Join us in making a positive impact today.</p>
         </div>
         <div className="rounded-xl  bg-[#ffffff]  divide-y ">
         <div className="justify-between grid grid-cols-2     divide-x   mt-20 rounded-2xl  divide-y- p-10">
-        <div className="px-5 mt-10 " >
+        <div className="px-10 mt-10 " >
              <img className="rounded-2xl -mt-30"
              src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-06.jpg"
              alt=""
@@ -62,8 +62,8 @@ function create () {
            <p   className="mb-6">Join our non-profit organisation to help create a brighter future for those in need. Every donation counts towards making a difference in the lives of those less fortunate.</p>
            <a className="font-semibold flex items-center gap-2">Readmore <FaLongArrowAltRight /></a>
         </div>
-        <div className="px-5 mt-10">
-            <img className="rounded-2xl -mt-30"
+        <div className=" mt-10 px-14">
+            <img className="rounded-2xl -mt-30 "
              src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-07.jpg"
              alt=""
              />

@@ -37,7 +37,7 @@ const About = () => {
           <img
                 src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-0001.jpg"
                 alt="Helping hands"
-                className="rounded-3xl -mt-17 "
+                className="rounded-3xl -mt-17"
               />
 
            <img

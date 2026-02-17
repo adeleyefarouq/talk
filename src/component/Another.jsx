@@ -1,8 +1,15 @@
 import React from 'react'
 import { FaLongArrowAltRight } from "react-icons/fa";
+import { MdFacebook } from "react-icons/md";
+import { FaTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+
+
 
 function another() {
   return (
+    <div>
     <div className="  flex justify-betwwen   gap-40 -mb-60 py-20 border border-black">
       <div  className=''>
         <img 
@@ -33,6 +40,18 @@ function another() {
            (406) 555-0121
            mail@example.com</p>
       </div>
+       </div>
+      
+      <div>
+          <p className=' flex justify-between  text-xl'> &copy; {new Date().getFullYear()} Non-Profit Organization. All rights reserved.</p>
+        </div>
+        <div className='flex  text-2xl  '>
+            <a href=""><MdFacebook /></a> 
+            <a href=""><FaTwitter /></a>
+            <a href=""><FaInstagram /></a>
+            <a href=""><FaYoutube /></a>
+
+        </div>
     </div>
 
   )
